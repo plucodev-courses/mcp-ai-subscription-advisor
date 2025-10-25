@@ -1,0 +1,15 @@
+{
+  "name": "mcp-ai-subscription-advisor-root",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "mcp"
+  ],
+  "scripts": {
+    "dev:client": "npm --workspace client run dev",
+    "dev:server": "npm --workspace server run dev",
+    "dev:mcp": "npm --workspace mcp run dev"
+  }
+}

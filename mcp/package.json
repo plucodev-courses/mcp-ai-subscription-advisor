@@ -1,0 +1,10 @@
+{
+  "name": "mcp-ai-subscription-advisor-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  }
+}
